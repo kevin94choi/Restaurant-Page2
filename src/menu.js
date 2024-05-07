@@ -9,8 +9,8 @@ const createMenuPage = () => {
     const pageContent = document.createElement('div');
     pageContent.classList.add('page-content');
 
-    const heading = document.createElement('h1');
-    heading.textContent = 'Our Menu';
+    // const heading = document.createElement('h1');
+    // heading.textContent = 'Our Menu';
 
     const menuList = document.createElement('ul');
     const menuItem1 = document.createElement('li');
@@ -23,7 +23,7 @@ const createMenuPage = () => {
     menuList.appendChild(menuItem2);
     menuList.appendChild(menuItem3);
 
-    pageContent.appendChild(heading);
+    // pageContent.appendChild(heading);
     pageContent.appendChild(menuList);
     content.appendChild(pageContent);
 };
